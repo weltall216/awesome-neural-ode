@@ -251,6 +251,10 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 > We present a stochastic differential equation (SDE) that smoothly transforms a complex data distribution to a known prior distribution by slowly injecting noise, and a corresponding reverse-time SDE that transforms the prior distribution back into the data distribution by slowly removing the noise.
 
+* Efficient and Accurate Gradients for Neural SDEs: [arXiv21](https://arxiv.org/abs/2105.13493)
+
+* Neural SDEs as Infinite-Dimensional GANs: [arXiv21](https://arxiv.org/abs/2102.03657)
+
 ### Neural CDEs
 
 * Neural Controlled Differential Equations for Irregular Time Series (spotlight): [NeurIPS20](https://arxiv.org/abs/2005.08926)
@@ -269,6 +273,9 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 > We identify several theoretical conditions that interpolation schemes for Neural CDEs should satisfy, such as boundedness and uniqueness. Second, we use these to motivate the introduction of new schemes that address these conditions, offering in particular measurability (for online prediction), and smoothness (for speed).
 
+### Neural RDEs
+
+* Neural Rough Differential Equations for Long Time Series : [ICML21](https://arxiv.org/abs/2009.08295)
 
 ### Generative Models
 

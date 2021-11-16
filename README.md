@@ -32,6 +32,8 @@ The repo further introduces a (rough) categorization by assigning topic labels t
 	
 	* [Neural CDEs](#neural-cdes)
 	
+	* [Neural RDEs](#neural-rdes)
+	
 	* [Generative Models](#generative-models)
 	
 		* [Normalizing Flows](#normalizing-flows)

@@ -213,6 +213,13 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 > We introduce optimal energy shaping as an enhancement of classical passivity-based control methods. A promising feature of passivity theory, alongside stability, has traditionally been claimed to be intuitive performance tuning along the execution of a given task. However, a systematic approach to adjust performance within a passive control framework has yet to be developed, as each method relies on few and problem-specific practical insights. Here, we cast the classic energy-shaping control design process in an optimal control framework; once a task-dependent performance metric is defined, an optimal solution is systematically obtained through an iterative procedure relying on neural networks and gradient-based optimization.
 
+#### Expert ODE into Neural ODEs
+
+* Integrating Expert ODEs into Neural ODEs:Pharmacology and Disease Progression: [arXiv21](https://arxiv.org/abs/2106.02875)
+
+> Modeling a system’s temporal behaviour in reaction to external stimuli is a fundamental problem in many areas. Pure Machine Learning (ML) approaches often fail in the small sample regime and cannot provide actionable insights beyond predictions. A promising modification has been to incorporate expert domain knowledge into ML models. The application we consider is predicting the progression of disease under medications, where a plethora of domain knowledge is available from pharmacology. Pharmacological models describe the dynamics of carefullychosen medically meaningful variables in terms of systems of Ordinary Differential Equations (ODEs). However, these models only describe a limited collection of variables, and these variables are often not observable in clinical environments. To close this gap, we propose the latent hybridisation model (LHM) that integrates a system of expert-designed ODEs with machine-learned Neural ODEs to fully describe the dynamics of the system and to link the expert and latent variables to observable quantities. We evaluated LHM on synthetic data as well as real-world intensive care data of COVID-19 patients. LHM consistently outperforms previous works, especially when few training samples are available such as at the beginning of the pandemic.
+
+
 ### Neural GDEs
 
 * Graph Neural Ordinary Differential Equations (spotlight): [AAAI DLGMA20](https://arxiv.org/abs/1911.07532)

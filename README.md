@@ -66,12 +66,6 @@ The repo further introduces a (rough) categorization by assigning topic labels t
 
 ### General Architectures
 
-* Recurrent Neural Networks for Multivariate Time Series with Missing Values: [Scientific Reports18](https://arxiv.org/abs/1606.01865)
-
-![TS](https://img.shields.io/badge/sequences-purple.svg?logo=Altium%20Designer)
-
-> Multivariate time series data in practical applications, such as health care, geoscience, and biology, are characterized by a variety of missing values. We propose a GRU-based model called GRU-D, in which a decay mechanism is designed for the input variables and the hidden states to capture the aforementioned properties. We introduce decay rates in the model to control the decay mechanism by considering the following important factors.
-
 * Learning unknown ODE models with Gaussian processes: [arXiv18](https://arxiv.org/abs/1803.04303), [code](https://github.com/cagatayyildiz/npde/)
 
 ![DS](https://img.shields.io/badge/systems-red.svg?logo=Graphcool)

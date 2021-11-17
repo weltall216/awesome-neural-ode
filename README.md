@@ -141,6 +141,8 @@ interactions governing the underlying dynamics. In these settings, parametric OD
 
 > We show that Neural Ordinary Differential Equations (ODEs) learn representations that preserve the topology of the input space and prove that this implies the existence of functions Neural ODEs cannot represent. To address these limitations, we introduce Augmented Neural ODEs which, in addition to being more expressive models, are empirically more stable, generalize better and have a lower computational cost than Neural ODEs.
 
+* Parameterized Neural Ordinary Differential Equations: Applications to Computational Physics Problems: [arXiv20](https://arxiv.org/abs/2010.14685)
+
 * Latent ODEs for Irregularly-Sampled Time Series: [NeurIPS19](https://arxiv.org/abs/1907.03907)
 
 ![TS](https://img.shields.io/badge/sequences-purple.svg?logo=Altium%20Designer)

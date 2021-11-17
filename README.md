@@ -66,25 +66,6 @@ The repo further introduces a (rough) categorization by assigning topic labels t
 
 ### General Architectures
 
-* Learning unknown ODE models with Gaussian processes: [arXiv18](https://arxiv.org/abs/1803.04303), [code](https://github.com/cagatayyildiz/npde/)
-
-![DS](https://img.shields.io/badge/systems-red.svg?logo=Graphcool)
-
-> However, for many complex systems it is practically impossible to determine the equations or
-interactions governing the underlying dynamics. In these settings, parametric ODE model cannot be formulated. Here, we overcome this issue by introducing a novel paradigm of nonparametric ODE modeling that can learn the underlying dynamics of arbitrary continuous-time systems without prior knowledge. We propose to learn non-linear, unknown differential functions from state observations using Gaussian process vector fields within the exact ODE formalism.
-
-* Deep Equilibrium Models: [NeurIPS19](https://arxiv.org/abs/1909.01377)
-
-![DS](https://img.shields.io/badge/systems-red.svg?logo=Graphcool) ![TS](https://img.shields.io/badge/sequences-purple.svg?logo=Altium%20Designer)
-
-> We present a new approach to modeling sequential data: the deep equilibrium model (DEQ). Motivated by an observation that the hidden layers of many existing deep sequence models converge towards some fixed point, we propose the DEQ approach that directly finds these equilibrium points via root-finding.
-
-* Fast and Deep Graph Neural Networks: [AAAI20](https://arxiv.org/pdf/1911.08941.pdf)
-
-![DS](https://img.shields.io/badge/systems-red.svg?logo=Graphcool)
-
-> We address the efficiency issue for the construction of a deep graph neural network (GNN). The approach exploits the idea of representing each input graph as a fixed point of a dynamical system (implemented through a recurrent neural network), and leverages a deep architectural organization of the recurrent units. Efficiency is gained by many aspects, including the use of small and very sparse networks, where the weights of the recurrent units are left untrained under the stability condition introduced in this work.
-
 * Hamiltonian Neural Networks: [NeurIPS19](https://arxiv.org/abs/1906.01563)
 
 ![DS](https://img.shields.io/badge/systems-red.svg?logo=Graphcool)
